@@ -3,7 +3,6 @@ package org.example.loginform.repository;
 import org.apache.ibatis.annotations.*;
 import org.example.loginform.model.entity.AppUser;
 import org.example.loginform.model.request.AppUserRequest;
-import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.List;
 

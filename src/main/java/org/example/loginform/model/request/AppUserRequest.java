@@ -12,11 +12,8 @@ import java.util.List;
 @NoArgsConstructor
 @NullMarked
 public class AppUserRequest {
-
-    private Long userId;
-    private String fullName;
+    private String username;
     private String email;
     private String password;
     private List<String> roles;
-
 }
